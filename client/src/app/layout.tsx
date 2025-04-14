@@ -12,8 +12,8 @@ type RootLayoutPropTypes = {
 };
 
 export const metadata = {
-  title: 'Ghar',
-  description: 'Information Retrieval System',
+  title: 'Dib',
+  description: 'Search Engine System',
   icons: {
     icon: '/favicon.ico',
   },

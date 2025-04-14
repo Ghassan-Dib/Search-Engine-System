@@ -76,10 +76,10 @@ const SearchBar = () => {
   return (
     <div className='flex flex-col justify-center items-center w-full mt-36'>
       <h1 className='text-6xl font-bold mb-4'>
-        <span className='text-blue-600'>G</span>
-        <span className='text-red-600'>h</span>
-        <span className='text-yellow-400'>a</span>
-        <span className='text-green-600'>r</span>
+        <span className='text-blue-600'>D</span>
+        <span className='text-red-600'>e</span>
+        <span className='text-yellow-400'>e</span>
+        <span className='text-green-600'>b</span>
       </h1>
       <SearchProvider
         // @ts-ignore
@@ -91,7 +91,7 @@ const SearchBar = () => {
           inputProps={{
             className:
               'border border-gray-300 rounded-full p-4 pl-8 shadow-sm text-lg placeholder-gray-600 custom-search-input',
-            placeholder: 'Search Ghar or type a query',
+            placeholder: 'Search Dib or type a query',
             value: searchQuery,
             onChange: (e: React.ChangeEvent<HTMLInputElement>) => {
               setSearchQuery(e.target.value);

@@ -18,7 +18,7 @@ This project provides a RESTful API for searching and retrieving documents from 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hsal/es-cisi.git
+git clone https://github.com/Ghassan-Dib/Search-Engine-System.git
 cd es-cisi
 ```
 

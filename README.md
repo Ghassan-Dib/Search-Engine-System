@@ -10,11 +10,6 @@ The application consists of:
 - **Backend:** A Flask REST API that connects to Elasticsearch and indexes the CISI dataset.
 - **Dataset:** The [CISI (Information Retrieval) dataset](https://ir.dcs.gla.ac.uk/resources/test_collections/cisi/) commonly used in information retrieval research.
 
-## 🌐 Live Demo
-
-> 🟢 [https://your-deployed-url.com](https://your-deployed-url.com)  
-*(Replace with your deployed frontend URL)*
-
 ## 🚀 Features
 
 - Full-text search across the CISI dataset
@@ -28,11 +23,3 @@ The application consists of:
 - **Frontend:** Next.js, React
 - **Backend:** Flask, Elasticsearch
 - **Data:** CISI Dataset
-- **Deployment:** Vercel (frontend), Render (backend) *(or customize based on your stack)*
-
-## 🔧 Environment Variables
-
-Set the API endpoint for the Flask server in `.env.local`:
-
-```env
-NEXT_PUBLIC_API_BASE_URL=https://es-cisi.onrender.com
